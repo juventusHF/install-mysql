@@ -1,15 +1,14 @@
 # MySQL Installation
 
-Installiere die MySQL Community Edition: https://dev.mysql.com/downloads/mysql/ 
-Merke Dir das temporäre Passwort für den während der Installation erzeugten Root-Account.
+Installiere die MySQL Community Edition: https://dev.mysql.com/downloads/mysql/. 
+Notiere das Passwort für den während der Installation erzeugten Root-Account.
 
 Stelle sicher, dass `mysql` und `mysqladmin` auf der Command Line verfügbar sind:
 - https://dev.mysql.com/doc/refman/5.7/en/installing.html 
 
 ## Root-Zugang konfigurieren 
 
-Bei Bedarf kannst Du das Passwort des Root-Users ändern:
-
+Bei Bedarf kannst Du das Passwort des Root-Users ändern. 
 Melde Dich dazu an DB mit dem notierten ROOT-Zugang an:
 
     $ mysql -u root -p 
