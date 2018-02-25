@@ -3,13 +3,19 @@
 Installiere die MySQL Community Edition: https://dev.mysql.com/downloads/mysql/. 
 Notiere das Passwort für den während der Installation erzeugten Root-Account.
 
-Stelle sicher, dass `mysql` und `mysqladmin` auf der Command Line verfügbar sind:
-- https://dev.mysql.com/doc/refman/5.7/en/installing.html 
+Stelle sicher, dass `mysql` und `mysqladmin` auf der Command Line verfügbar sind 
+und der Server läuft.
+- Details für Windows, Linux und macOS: https://dev.mysql.com/doc/refman/5.7/en/installing.html 
+
+Das folgende Kommando verifiziert, dass alles erfolgreich konfiguriert wurde.
+Als Passwort nutze das zuvor notierte ROOT-Passwort.
+
+    mysqladmin version -u root -p 
 
 ## Root-Zugang konfigurieren 
 
 Bei Bedarf kannst Du das Passwort des Root-Users ändern. 
-Melde Dich dazu an DB mit dem notierten ROOT-Zugang an:
+Melde Dich dazu an DB mit dem notierten ROOT-Passwort an:
 
     $ mysql -u root -p 
     Enter password: 
