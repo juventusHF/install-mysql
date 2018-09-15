@@ -46,7 +46,7 @@ Füge einen neuen User mit dem Namen Deines Betriebssystem-Logins hinzu:
 Stelle sicher, dass Du Dich anmelden kannst
 
     mysql> quit;
-    $  mysql -p 
+    $  mysql -u user -p 
     Enter password:
     ...
     mysql>
